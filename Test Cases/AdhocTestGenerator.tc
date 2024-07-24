@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AdhocTestGenerator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>abc59a21-fb78-438c-8ff9-f3f6c9566c13</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15e770dc-0e10-43fb-af21-f887446706d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13c220b1-7ade-41af-ada8-98b70911a5ed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11f963f8-d9de-470e-b275-451ea1aa88e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'manaki'</defaultValue>
+      <description></description>
+      <id>15e770dc-0e10-43fb-af21-f887446706d4</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'dbc'</defaultValue>
+      <description></description>
+      <id>13c220b1-7ade-41af-ada8-98b70911a5ed</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'D:\\Dahlsen\\Frameworks Testing\\AutomationTesting\\testdata.xlsx'</defaultValue>
+      <description></description>
+      <id>11f963f8-d9de-470e-b275-451ea1aa88e3</id>
+      <masked>false</masked>
+      <name>ExcelFile</name>
+   </variable>
+</TestCaseEntity>
