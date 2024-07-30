@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_Purchase_Order_CHC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1700243-a82e-4cf6-bf3c-da5dece62ca2</testCaseGuid>
+</TestCaseEntity>

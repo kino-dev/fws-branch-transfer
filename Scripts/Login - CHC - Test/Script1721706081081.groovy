@@ -21,13 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/fluid/FluidAppServerProxy')
+WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-//WebUI.click(findTestObject('Object Repository/Login-CHC/Page_Welcome to Frameworks/input_button'))
+WebUI.setText(findTestObject('Object Repository/Login-CHC/Page_Frameworks (Demo)/input_User ID_userid'), 'manaki')
 
-//WebUI.switchToWindowTitle('')
-////WebUI.switchToWindowTitle('Frameworks (Demo) Login - Google Chrome')
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Login-CHC/Page_Frameworks (Demo)/input_Password_password'), 'chcmanaki')
 
-//WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/fluid/FluidAppServerProxy')
+WebUI.click(findTestObject('Object Repository/Login-CHC/Page_Frameworks (Demo)/div_Login'))
+
+//WebUI.click(findTestObject('Object Repository/Login-CHC/Page_Frameworks (Demo)/td_Kino Rafael Manalo (manaki)'))
+//
+//WebUI.click(findTestObject('Object Repository/Login-CHC/Page_Frameworks (Demo)/div_Logout'))
+//
+//WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/')
 
