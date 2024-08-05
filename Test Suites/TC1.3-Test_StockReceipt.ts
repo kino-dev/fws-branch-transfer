@@ -15,7 +15,7 @@
       <guid>6a52b7e9-a981-4956-9df7-f67175bb9a39</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Stock_Receipt</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Stock_Receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

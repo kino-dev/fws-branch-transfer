@@ -15,7 +15,7 @@
       <guid>de8dfba6-9d24-47a2-bfc2-d2d0af461cbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pick_Release_SO</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Pick_Release_SO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

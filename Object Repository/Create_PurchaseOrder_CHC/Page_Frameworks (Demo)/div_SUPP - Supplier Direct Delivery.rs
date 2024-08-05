@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[8]/td/div[(text() = 'SUPP - Supplier Direct Delivery' or . = 'SUPP - Supplier Direct Delivery')]</value>
+         <value>//div[(text() = 'SUPP - Supplier Direct Delivery' or . = 'SUPP - Supplier Direct Delivery')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5aca6c5f-edea-411c-b613-9cb2f35b0e29</webElementGuid>
+      <webElementGuid>6a750a07-f4e6-48d3-ae00-c5b5efd576e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>ffe54323-a055-4dcf-96b3-d34a076d957a</webElementGuid>
+      <webElementGuid>30dabb5c-6aed-48a3-9995-f0258fd3499c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5e2002b9-47b6-45a0-a6ec-eb4125f7ccef</webElementGuid>
+      <webElementGuid>ffb44a85-6391-4e7a-8b1f-44b8c4253a7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SUPP - Supplier Direct Delivery</value>
-      <webElementGuid>6a685f0e-6f9b-4f2a-96a4-10e0d1c943e8</webElementGuid>
+      <webElementGuid>aee89b14-c7cd-4efd-8ec2-6800a7d956d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_14Ltable&quot;)/tbody[1]/tr[8]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>b8c60ca8-abfd-4f65-b001-f857a376ffb9</webElementGuid>
+      <webElementGuid>9bc9231d-3e16-499d-ac9a-f1b208a4b873</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_14Ltable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>3185e2f8-10d9-4031-8085-1ea6de8bf053</webElementGuid>
+      <webElementGuid>24dbe80e-f0f4-49eb-83cb-b4484ff71254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FRT - Freight Charged'])[1]/following::div[1]</value>
-      <webElementGuid>0b416ddc-dd82-444f-b9f7-d5de79654a5a</webElementGuid>
+      <webElementGuid>cebe5e2b-da47-4322-9c3d-0c71c7e01f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FOB - Free On Board'])[1]/following::div[2]</value>
-      <webElementGuid>45057333-f2a2-469d-8f4e-c8a328666249</webElementGuid>
+      <webElementGuid>d866c6c2-9f54-4c67-88c8-0d675d535cef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[17]/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>dd60e92b-5844-4c4c-a53e-1558a9b43d15</webElementGuid>
+      <webElementGuid>163109e2-e973-4c9a-a8fd-bb69a14efcda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'SUPP - Supplier Direct Delivery' or . = 'SUPP - Supplier Direct Delivery')]</value>
-      <webElementGuid>11901f5e-0882-4667-99ab-621bed370cb5</webElementGuid>
+      <webElementGuid>34973eca-9a36-4487-b53a-59e0907190d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

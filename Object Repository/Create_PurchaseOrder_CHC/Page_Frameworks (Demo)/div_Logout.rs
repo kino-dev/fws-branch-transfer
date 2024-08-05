@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fec111ee-3bbd-4513-aaf3-11be61a1034e</webElementGuid>
+      <webElementGuid>b5d95c06-0158-4297-9c3e-d9664688850e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>122684b1-3063-4ea4-a1c8-71e6e00a35f2</webElementGuid>
+      <webElementGuid>8130d632-43b9-4b10-83e7-2529be72e7fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ab3ee253-0fc4-4780-ac85-571902f1e70e</webElementGuid>
+      <webElementGuid>b985cf47-45be-4c20-8f08-f84f1975d052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>af15e069-4049-478f-9fda-3831bc8aae81</webElementGuid>
+      <webElementGuid>b461952b-e814-4192-89f0-8836ad94c99f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>02a2ccae-71f3-4f71-9617-4435ee58a347</webElementGuid>
+      <webElementGuid>d04e29e6-82a1-4508-a222-2d5825ff865a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>afa4354d-fa2a-443d-ae81-a4dd137823d0</webElementGuid>
+      <webElementGuid>ca3c8966-78f1-491d-a156-c94bcf973ba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>63fe6bbb-b899-41ce-837e-9710e5ed84d2</webElementGuid>
+      <webElementGuid>63e5139b-8d31-4313-97ec-31c3ce326528</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>75746bdf-ebc5-48d3-bb02-c4fab1046eaa</webElementGuid>
+      <webElementGuid>7eb488fa-2b71-4a6a-95e4-762719576e71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>2be3c3da-a3c4-47e7-8aae-af60d031d951</webElementGuid>
+      <webElementGuid>f09925c3-85f2-40ea-93a5-0aedde37df97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>b321c839-b2d7-4f5c-9f3c-1bd8544bd8e7</webElementGuid>
+      <webElementGuid>9b48ff8b-fe42-412e-bb07-f2f7ca041cde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

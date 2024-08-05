@@ -15,7 +15,7 @@
       <guid>5be89701-aef7-4ba9-bdd9-27637503926f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create_Purchase_Order</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Create_Purchase_Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,7 +70,7 @@
       <guid>8348c144-7008-456a-a697-a137ae3ca74b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pick_Release_SO</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Pick_Release_SO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -113,7 +113,7 @@
       <guid>36968b7e-2593-4531-87b4-9b3099ed831d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Stock_Receipt</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Stock_Receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -28,7 +28,7 @@
       <guid>b697be01-7113-4a7f-8258-0a4677ea14d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create_Purchase_Order</testCaseId>
+      <testCaseId>Test Cases/DBC_Instance/Branch_Transfer/Create_Purchase_Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
