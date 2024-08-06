@@ -23,18 +23,28 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_Login'))
 
 WebUI.click(findTestObject('Object Repository/FW_PR_SO/Object_Repo/img_FWs_Icon'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/Sales_TransactionProcessing'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/Sales_TransactionProcessing'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/td_Point Of Sale'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/td_Point Of Sale'))
+
+invoiceNum = WebUI.getText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_invoiceNum'))
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_m_customerIdX'))
+
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_m_customerIdX'), customerName)
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_CustomerValue'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_P_prodId'))
 
@@ -74,7 +84,7 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo
 
 WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'), '2')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 
@@ -82,21 +92,21 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/img_add'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
+
+WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_FinishSale (S)'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/img_CustomerDashboard'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_100 Cash'))
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_Customer No_CustId'), '3379')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/td_Find'))
 
-WebUI.takeFullPageScreenshot()
+WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/td_SaveClose (S)'))
-
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot()
 
