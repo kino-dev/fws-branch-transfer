@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>div_Deliv - Delivery Ex Store</name>
    <tag></tag>
-   <elementGuidId>e7e020be-efa3-4535-b90a-316a9ef5638e</elementGuidId>
+   <elementGuidId>69b01d61-b67c-4796-b031-8526e87fd2e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#isc_1S</value>
+         <value>#isc_SOtable > tbody > tr > td.pickListCellSelected > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <value>//div[(text() = 'Deliv - Delivery Ex Store' or . = 'Deliv - Delivery Ex Store')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>#isc_SOtable >> internal:text=&quot;Deliv - Delivery Ex Store&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e3d523f2-f0a5-43dd-acf0-6c069c8bbf62</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>bb1440bb-279d-4a5d-8b72-362f45d2fd55</webElementGuid>
+      <webElementGuid>40a42c64-d693-4eed-b822-4e806d502249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>role</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>5623c539-203c-4b69-8160-2f7dcba6105a</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>30145af0-49c6-42bb-a804-78c0d1ae6c7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6d06704a-a81b-46fd-809d-cfae1ae19525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dab8f0ee-ad7c-452c-b3e1-2a1a60c94e04</webElementGuid>
+      <value>Deliv - Delivery Ex Store</value>
+      <webElementGuid>ad8e0cd4-de4f-4518-be5f-636f3b9d4f74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>f59813c3-c49f-4872-9e93-3fa9bbea015d</webElementGuid>
+      <value>id(&quot;isc_SOtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>50f0ea44-422c-4f24-a4e7-b06877da69b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>fd7ea649-e812-40cc-83ac-af59de19aa79</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>06a0520f-3d3a-42a4-b270-bd7a0c741cb0</webElementGuid>
+      <value>//table[@id='isc_SOtable']/tbody/tr/td/div</value>
+      <webElementGuid>9959b3e2-e52d-4cac-9dd5-98f4b0721969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>8c7aad71-057f-4489-bb44-f32c6141f963</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOE CHILA (3379)'])[1]/following::div[9]</value>
+      <webElementGuid>57a105b7-b711-4e3e-96e9-8f5782af9181</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>4cb08fd4-4bc8-49a7-b42b-3e34adb38b3a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[2]/following::div[19]</value>
+      <webElementGuid>93ae5267-1e94-40d9-8fd6-558147f3e403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>1665ed2f-c111-4b23-925f-e96364df8016</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direc - Direct from Supplier'])[1]/preceding::div[1]</value>
+      <webElementGuid>d4e5f339-7960-4c32-b624-7148a573c23f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>553871b2-24db-4073-a260-c08c1b4c3009</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8eb60dfd-df4c-4af5-bdf8-ee7007f559e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PickU - Pick up'])[1]/preceding::div[2]</value>
+      <webElementGuid>b6cfc01b-f9b7-4390-961a-cf8b3482e041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>76eddf82-3fc1-4dfc-b756-b657e38d436d</webElementGuid>
+      <value>//div[12]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>d5418983-ba12-441d-8e0a-2c4144956cfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>c1c386fa-0186-4e6f-bbdb-abc0dbc3f024</webElementGuid>
+      <value>//div[(text() = 'Deliv - Delivery Ex Store' or . = 'Deliv - Delivery Ex Store')]</value>
+      <webElementGuid>9972b51a-dcbe-4c57-980e-c8f923893fc9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

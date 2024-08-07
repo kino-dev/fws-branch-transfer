@@ -1,154 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Print Delivery Docket_isc_1PK</name>
+   <name>td_OK</name>
    <tag></tag>
-   <elementGuidId>487f0532-aa2c-4a65-b4b3-c9a95007667e</elementGuidId>
+   <elementGuidId>a11ec255-812f-4545-a07b-7d25df35352a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#isc_1PK</value>
+         <value>td.buttonRoundedOver</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Delivery Docket'])[1]/following::div[1]</value>
+         <value>//div[@id='isc_ZU']/table/tbody/tr/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;Print Delivery Docket Email Delivery Docket Printer Address&quot;i] >> div >> nth=0</value>
+         <value>internal:label=&quot;OK&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>2586e054-a43a-42b4-a45d-2677b8d355e5</webElementGuid>
+      <value>td</value>
+      <webElementGuid>c0e8ce7c-ac22-48c8-afa4-b1e44b44a30a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>nowrap</name>
       <type>Main</type>
-      <value>isc_1PK</value>
-      <webElementGuid>1ac41300-50da-4281-9a1b-bf904f2a643a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>$89</name>
-      <type>Main</type>
-      <value>isc_CheckboxItem_11</value>
-      <webElementGuid>e9de7d80-be53-47d5-ae23-eb2303bfdf77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>$9a</name>
-      <type>Main</type>
-      <value>$9d</value>
-      <webElementGuid>223089d0-9c5d-4ce3-a084-4ff865dff75c</webElementGuid>
+      <value>true</value>
+      <webElementGuid>22ec340a-d7b8-4c36-81fb-df4abdd7f35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>labelAnchor</value>
-      <webElementGuid>99dc10b4-8e2a-49c3-b37d-dec0ac52c7c5</webElementGuid>
+      <value>buttonRoundedOver</value>
+      <webElementGuid>ee6d1745-4aee-4ce2-b4ef-cf51702d0fab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>align</name>
       <type>Main</type>
-      <value>18485</value>
-      <webElementGuid>39d16de9-d9ab-4248-8130-9439b80bb63a</webElementGuid>
+      <value>center</value>
+      <webElementGuid>a82a1981-d9e1-4d9f-99d0-1e710c34a0c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>d7e23821-ac22-4b06-b947-594d8471da9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>isc_IButton_1.$47()</value>
+      <webElementGuid>bc409a65-710b-4a24-ac45-6aad1af185aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-checked</name>
+      <name>text</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>3352e15d-489d-46ca-a3e8-0e2183d47087</webElementGuid>
+      <value>OK</value>
+      <webElementGuid>39fa7496-0afb-4541-bbc6-68ceaa8f35c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1PK&quot;)</value>
-      <webElementGuid>4d5f925a-8033-4624-a5e7-1a5381c73963</webElementGuid>
+      <value>id(&quot;isc_ZU&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]</value>
+      <webElementGuid>c5a9fb21-4280-49a5-8e2d-56e93ad01df2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1PK']</value>
-      <webElementGuid>d3f94409-9e34-4d46-a63f-96a3deec01f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1PJ']/tbody/tr/td/div</value>
-      <webElementGuid>4263e2bf-6354-49ac-a187-81e6957ff68c</webElementGuid>
+      <value>//div[@id='isc_ZU']/table/tbody/tr/td</value>
+      <webElementGuid>0e0e96de-a510-45ae-95f8-62ad29764e88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Delivery Docket'])[1]/following::div[1]</value>
-      <webElementGuid>674d3199-232e-49d1-b2fb-867d71aceec1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='There were errors during the save'])[1]/following::td[2]</value>
+      <webElementGuid>3d083d24-b796-41d3-b9f2-3fb580c20c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[2]/following::div[1]</value>
-      <webElementGuid>8662a7fc-220d-4b2e-9a79-6d75e27e2198</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WA - Western Australia'])[1]/following::td[4]</value>
+      <webElementGuid>dd8f87e1-35ed-4b9d-8719-49e2b4a1431c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Delivery Docket'])[1]/preceding::div[1]</value>
-      <webElementGuid>2e84d761-a53b-447f-ba2f-6f5bf2d693b2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[3]/preceding::td[1]</value>
+      <webElementGuid>a89b44b0-162e-489b-b7ca-fa1a943e713d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Printer Address'])[1]/preceding::div[2]</value>
-      <webElementGuid>ab01319c-bfcb-4aa5-9899-18f7a18b5337</webElementGuid>
+      <value>//*/text()[normalize-space(.)='K']/parent::*</value>
+      <webElementGuid>b89a9018-20b9-4b14-91fc-9071302be871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[17]/td[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>1af01c03-2602-47e6-9b03-636524cc7908</webElementGuid>
+      <value>//div[20]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr/td</value>
+      <webElementGuid>d00ebe9e-8e0b-4381-8dfc-1fbee635adb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1PK']</value>
-      <webElementGuid>ab03755a-19d0-4cf8-a593-6919c1d51b2e</webElementGuid>
+      <value>//td[(text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>89fd2fb2-aa7c-4667-b3f6-8bda9e86fc74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

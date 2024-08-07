@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>b_Transaction Processing</name>
+   <name>Sales_TransactionProcessing</name>
    <tag></tag>
-   <elementGuidId>8466297e-5f77-4997-875e-cd30007a5cff</elementGuidId>
+   <elementGuidId>3b5ecb56-6880-460f-8a4b-008163c7c483</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>934b2c0c-97ac-4a2d-909c-de94a6b000ee</webElementGuid>
+      <webElementGuid>4bca64ee-1521-4431-b62b-3b322d3015aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction Processing</value>
-      <webElementGuid>68d0a357-0743-43bf-9262-47f3a76abcde</webElementGuid>
+      <webElementGuid>a7e18556-283d-4e28-852e-aa8952d712a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_MenuPopout_2_0_valueCell1&quot;)/b[1]</value>
-      <webElementGuid>6dc72aad-bf21-448e-9322-885da8cf258b</webElementGuid>
+      <webElementGuid>f08f8f0a-bf72-47a3-a963-27086a60915a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_MenuPopout_2_0_valueCell1']/b</value>
-      <webElementGuid>92d2d0f4-d027-4ee8-bc67-70c00dc3b799</webElementGuid>
+      <webElementGuid>b9f1f95b-2e37-439e-813d-b80b632eedb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::b[1]</value>
-      <webElementGuid>67e157f4-6591-4529-9db6-37c70fe5b881</webElementGuid>
+      <webElementGuid>08aad546-e9fd-49a4-8a50-7eaf3fae3254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/following::b[3]</value>
-      <webElementGuid>382c5165-3c20-4dfa-9cf3-21b213cff9a4</webElementGuid>
+      <webElementGuid>0d47693f-f8ab-4f64-97c1-f324486ec377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Till Reconciliation &amp; Banking'])[1]/preceding::b[2]</value>
-      <webElementGuid>62005e3f-ff2d-4b20-ad3c-6452cff4e42c</webElementGuid>
+      <webElementGuid>ed4f1023-e0db-4fb3-a8f9-4728a8ef0a50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance'])[1]/preceding::b[3]</value>
-      <webElementGuid>a0eb1908-eb7f-4aad-a804-6e1fef24968a</webElementGuid>
+      <webElementGuid>4145668e-9780-440f-83dd-3487c79ce1b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction Processing']/parent::*</value>
-      <webElementGuid>abeb67d0-7776-4977-88c3-3b0c6b28d522</webElementGuid>
+      <webElementGuid>704f26a7-6034-4761-8467-9925c9adbe49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/table/tbody/tr/td[3]/b</value>
-      <webElementGuid>1598a1ad-359a-4a3f-b741-d2f88da5e2f2</webElementGuid>
+      <webElementGuid>756b0db3-2359-46c6-a26c-193f22badd5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,54 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'Transaction Processing' or . = 'Transaction Processing')]</value>
-      <webElementGuid>d3d0655d-81a4-4b4e-bf65-9f050cbd0143</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//td[@id='isc_MenuPopout_2_0_valueCell14']/b</value>
-      <webElementGuid>b434ca49-c2a5-4f99-a121-eacbc79ae7a1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchasing &amp; Receipting'])[1]/following::b[1]</value>
-      <webElementGuid>f6016216-d23e-4a39-b9a3-869451d5c605</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WorkOrders'])[1]/following::b[3]</value>
-      <webElementGuid>cb51de50-f076-4062-9a19-e11b6ec02bc8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Pricing'])[1]/preceding::b[2]</value>
-      <webElementGuid>9487efde-1c70-4757-97ed-6c5e51a20cc9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Ledger'])[1]/preceding::b[4]</value>
-      <webElementGuid>11d7e5a9-ef85-4c10-a069-acf60667b677</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[15]/td/div/table/tbody/tr/td[3]/b</value>
-      <webElementGuid>6cc789fb-0024-44f9-9e89-153b2a4ddcbc</webElementGuid>
+      <webElementGuid>e40c6fcf-9d04-4f80-9d1d-95047fee9917</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

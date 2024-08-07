@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>a_DLV0</name>
    <tag></tag>
-   <elementGuidId>e7e020be-efa3-4535-b90a-316a9ef5638e</elementGuidId>
+   <elementGuidId>23125b15-a4d3-4431-9a8f-d2d9bd9e0ded</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#isc_1S</value>
+         <value>td.cellSelectedOver > div > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <value>//*/text()[normalize-space(.)='DLV0']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:role=link[name=&quot;DLV0&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>e3d523f2-f0a5-43dd-acf0-6c069c8bbf62</webElementGuid>
+      <value>a</value>
+      <webElementGuid>c2f7a1ca-19ac-4302-8e78-e131156a4ed5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>bb1440bb-279d-4a5d-8b72-362f45d2fd55</webElementGuid>
+      <value>javascript:void</value>
+      <webElementGuid>a3e03a1d-3205-45dc-9221-24eb84a68726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>target</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>5623c539-203c-4b69-8160-2f7dcba6105a</webElementGuid>
+      <value>javascript</value>
+      <webElementGuid>ca7949c4-bf98-48f6-853d-f2886db02c35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>if(window.deliveryAreaFind_results_ListGrid1) return deliveryAreaFind_results_ListGrid1.$30i(event,0,1);</value>
+      <webElementGuid>b9bd9c6b-004f-4a3e-8abd-a4af95de1778</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dab8f0ee-ad7c-452c-b3e1-2a1a60c94e04</webElementGuid>
+      <value>DLV0</value>
+      <webElementGuid>3f463d1d-393e-4333-805f-4d247fce22a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>f59813c3-c49f-4872-9e93-3fa9bbea015d</webElementGuid>
+      <value>id(&quot;isc_10Atable&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]/a[1]</value>
+      <webElementGuid>c9939d13-6521-43d7-abe2-45b6feb770de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>fd7ea649-e812-40cc-83ac-af59de19aa79</webElementGuid>
+      <value>//a[@onclick='if(window.deliveryAreaFind_results_ListGrid1) return deliveryAreaFind_results_ListGrid1.$30i(event,0,1);']</value>
+      <webElementGuid>87809adc-1c5a-4293-b051-7f5bd1b2440e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>06a0520f-3d3a-42a4-b270-bd7a0c741cb0</webElementGuid>
+      <value>//table[@id='isc_10Atable']/tbody/tr/td[2]/div/a</value>
+      <webElementGuid>1fe7c53c-0725-46c3-b97e-d4ce31bd5f1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'DLV0')]</value>
+      <webElementGuid>b49be82c-95b6-48e2-82db-fa68f3345828</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>8c7aad71-057f-4489-bb44-f32c6141f963</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DBC Local'])[1]/preceding::a[1]</value>
+      <webElementGuid>e78d2e4c-8b60-4715-b75d-81f0725e0755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>4cb08fd4-4bc8-49a7-b42b-3e34adb38b3a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$50.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>acdfdeb5-ef8d-4dda-9c60-569fccd6886d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>1665ed2f-c111-4b23-925f-e96364df8016</webElementGuid>
+      <value>//*/text()[normalize-space(.)='DLV0']/parent::*</value>
+      <webElementGuid>7ce159fc-ae85-4d6b-8caa-296b66a304b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>553871b2-24db-4073-a260-c08c1b4c3009</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8eb60dfd-df4c-4af5-bdf8-ee7007f559e6</webElementGuid>
+      <value>(//a[contains(@href, 'javascript:void')])[4]</value>
+      <webElementGuid>43a7f5d8-a6a8-46a4-b4d0-209b2dfc699e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>76eddf82-3fc1-4dfc-b756-b657e38d436d</webElementGuid>
+      <value>//td[2]/div/a</value>
+      <webElementGuid>393b7f05-ad6c-4fb7-b8b3-bde6fdbcf309</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>c1c386fa-0186-4e6f-bbdb-abc0dbc3f024</webElementGuid>
+      <value>//a[@href = 'javascript:void' and (text() = 'DLV0' or . = 'DLV0')]</value>
+      <webElementGuid>c27858b0-a3c8-41c2-9965-57165ff3abca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

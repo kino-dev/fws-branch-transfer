@@ -70,7 +70,7 @@ WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Framework
 
 WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/SalesOrderLink'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
@@ -90,29 +90,33 @@ SalesOrderValidate = SalesOrderValidate.replace('/0', '')
 if (SalesOrder == SalesOrderValidate) {
     println('yes it is same' + SalesOrder)
 
-        WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Actions'))
-    
-        WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Pick  Release'))
-    	
-    	WebUI.delay(3)
-    	WebUI.takeFullPageScreenshot()
-    
-        WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/td_OK'))
-    
-        WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/img_Delivery Area_searchIcon'))
-    
-        WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/a_Expo'))
-    	
-    	WebUI.delay(3)
-    	WebUI.takeFullPageScreenshot()
+    WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Actions'))
+
+    WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Pick  Release'))
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/td_OK'))
+
+    WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/img_Delivery Area_searchIcon'))
+
+    WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/a_Expo'))
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
+
     WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Actions'))
 
     WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_Pick  Release'))
 
     WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/Picked_Qty_row1'))
-	
-	WebUI.delay(3)
-	// not working use sendKeys
+
+    WebUI.delay(3)
+
+    // not working use sendKeys
     //	WebUI.setText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_EA_pickedQty'), '1')
     WebUI.sendKeys(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_EA_pickedQty'), '1')
 
@@ -138,11 +142,11 @@ if (SalesOrder == SalesOrderValidate) {
 
     WebUI.takeFullPageScreenshot()
 
-    WebUI.delay(5)
+    WebUI.delay(3)
 
     println('first delay done, check print delivery docket for 15 secs, 15 secs starts now...')
 
-    WebUI.delay(5)
+    WebUI.delay(3)
 
     println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
 

@@ -106,17 +106,17 @@ WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Fram
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Print Picking Slip_isc_19R'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 println('first delay done, check print delivery docket for 15 secs, 15 secs starts now...')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Despatch Method_isc_19B'))
 
@@ -172,5 +172,4 @@ sourceFile.close()
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))
-
 
