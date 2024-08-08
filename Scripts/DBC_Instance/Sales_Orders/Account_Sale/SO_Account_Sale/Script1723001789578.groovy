@@ -69,6 +69,10 @@ WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (De
 WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'), 
     '0476985205')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Save (S)'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_P_idProd'), 'PH2B9035')
@@ -90,6 +94,10 @@ WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Dem
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Pick All'))
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Save (S)_1'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Complete Picking'))
 
@@ -114,7 +122,6 @@ WebUI.takeFullPageScreenshot()
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Release (S)'))
-
 
 WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
 

@@ -25,7 +25,27 @@ WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#ho
 
 WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password'),
-	'FHoXGFMjtD0=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password'), 
+    'FHoXGFMjtD0=')
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Login'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_CustomerDashboard'))
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Customer No_CustId'), '3379')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
