@@ -15,7 +15,7 @@
       <guid>f8097288-a4ea-4d31-9e97-cffcc19a3559</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CHC_Instance/Pick_Release_SO_CHC</testCaseId>
+      <testCaseId>Test Cases/CHC_Instance/Branch_Transfer/Pick_Release_SO_CHC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

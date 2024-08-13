@@ -15,7 +15,7 @@
       <guid>d987872c-7d2a-411f-a9b3-7dc16fd4c94c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CHC_Instance/Create_Purchase_Order_CHC</testCaseId>
+      <testCaseId>Test Cases/CHC_Instance/Branch_Transfer/Create_Purchase_Order_CHC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -46,7 +46,7 @@
       <guid>87b6949a-de8a-42cc-882e-6d39212ddd76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CHC_Instance/Pick_Release_SO_CHC</testCaseId>
+      <testCaseId>Test Cases/CHC_Instance/Branch_Transfer/Pick_Release_SO_CHC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -89,7 +89,7 @@
       <guid>4b3a692c-4a82-4be8-aba1-34a4e5015703</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CHC_Instance/Stock_Receipt_CHC</testCaseId>
+      <testCaseId>Test Cases/CHC_Instance/Branch_Transfer/Stock_Receipt_CHC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -49,3 +49,4 @@ WebUI.takeFullPageScreenshot()
 WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
 
 WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
+

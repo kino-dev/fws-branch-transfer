@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SO_Account_Sale_CHC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a79e4e9-d418-4000-838e-fb493da2b5a6</testCaseGuid>
+</TestCaseEntity>

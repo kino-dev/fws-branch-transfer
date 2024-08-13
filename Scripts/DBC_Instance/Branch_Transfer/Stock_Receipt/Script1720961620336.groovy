@@ -118,7 +118,7 @@ WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Dem
 WebUI.delay(3)
 WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId (1)'), 'CM20')
+WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId (1)'), 'CM20')
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements'))
 

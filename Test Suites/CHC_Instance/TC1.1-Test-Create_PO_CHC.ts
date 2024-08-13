@@ -15,7 +15,7 @@
       <guid>c8980dea-0698-434c-87a0-1846f7f38453</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CHC_Instance/Create_Purchase_Order_CHC</testCaseId>
+      <testCaseId>Test Cases/CHC_Instance/Branch_Transfer/Create_Purchase_Order_CHC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

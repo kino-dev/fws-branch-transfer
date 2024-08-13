@@ -36,78 +36,78 @@ WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Dem
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Sales Orders'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_New'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_New (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Customer_idCustX_1'), 'JOE CHILA (3379)')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Customer_idCustX_1 (1)'), 'JOE CHILA (3379)')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_JOE CHILA (3379)'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_JOE CHILA (3379) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/img_Desp. Method_dropdown'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_Desp. Method_dropdown (1)'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/img_Calendar_icon'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_Calendar_icon'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_setDate'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_setDate'))
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Address'), '10 chila road')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Address'), '10 chila road')
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_SuburbCity'), 'chilaville')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_SuburbCity'), 'chilaville')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/img_State_dropdown'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_State_dropdown'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_VIC - Victoria'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_VIC - Victoria'))
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Post Code'), '3875')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Post Code'), '3875')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/img_Delivery Area_search'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_Delivery Area_search'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/a_DLV0'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/a_DLV0'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Contact Name_contactName'), 'test manaki')
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'), 
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'), 
     '0476985205')
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Save (S)'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_Save (S)'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_P_idProd'), 'PH2B9035')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Quantity_qtyTran'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Quantity_qtyTran'))
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Tally_tallyText_1'), '1/3.0')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Tally_tallyText_1'), '1/3.0')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_add'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Actions'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Actions'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Pick  Release'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Pick  Release'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Picker_isc_1GH'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Picker_isc_1GH'))
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_228 Celestine Z'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Pick All'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Pick All'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Save (S)_1'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_Save (S)_1'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Complete Picking'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Complete Picking'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Check Picking'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Check Picking'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_SaveClose (S)'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Release Order'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Release Order'))
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1WC'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1WC'))
 
 WebUI.delay(3)
 
@@ -121,7 +121,7 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/td_Release (S)'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_Release (S)'))
 
 WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
 
