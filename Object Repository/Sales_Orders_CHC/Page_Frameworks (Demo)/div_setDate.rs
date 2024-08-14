@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Actions</name>
+   <name>div_setDate</name>
    <tag></tag>
-   <elementGuidId>04f2c278-7f1c-4a3c-9834-e75fc0838fb3</elementGuidId>
+   <elementGuidId>640a5d45-3603-4098-ab80-13994d238cc5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Actions' or . = 'Actions')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#isc_1CU</value>
+         <value>td.dateChooserWeekdaySelectedOver > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
+         <value>//tr/td[6]/div[(text() = '16' or . = '16')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_136 >> internal:role=button[name=&quot;Actions&quot;i]</value>
+         <value>internal:text=&quot;16&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,110 +29,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>56c931f9-a624-466d-a211-aad2252b2da5</webElementGuid>
+      <webElementGuid>b79e6e76-bedc-43c8-8010-f6d243218bbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>role</name>
       <type>Main</type>
-      <value>isc_1CU</value>
-      <webElementGuid>0705d38b-bd8f-476a-bac6-ce209f7229ad</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>2a8936dc-a229-4337-8530-46a865f7928f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>cellclipdiv</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>38d53606-cc1c-43e2-95d2-654418898120</webElementGuid>
+      <value>true</value>
+      <webElementGuid>50ce890b-7992-4ce4-bac0-4278c706a5a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Actions</value>
-      <webElementGuid>a1cea65a-93bd-41eb-9fb8-d22490ff2ba8</webElementGuid>
+      <value>16</value>
+      <webElementGuid>b84886d1-2e62-48db-9d06-813fdc12101b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1CU&quot;)</value>
-      <webElementGuid>4b94f3cf-5bf9-4c9f-9177-5543b9170a0c</webElementGuid>
+      <value>id(&quot;isc_1FNtable&quot;)/tbody[1]/tr[3]/td[@class=&quot;dateChooserWeekdaySelectedOver&quot;]/div[1]</value>
+      <webElementGuid>f369695c-a925-4d1a-a166-9f1dac23fe3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1CU']</value>
-      <webElementGuid>39dcc995-7c18-4d35-b8df-cb645b007244</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1CR']/table/tbody/tr/td/div</value>
-      <webElementGuid>d1786938-3616-47f8-be47-3dd3b95421ec</webElementGuid>
+      <value>//table[@id='isc_1FNtable']/tbody/tr[3]/td[6]/div</value>
+      <webElementGuid>75bac2af-8e3e-466a-b521-7e375b83ed32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WAITING ON PICKING'])[1]/following::div[8]</value>
-      <webElementGuid>d06e0d10-3a52-427f-8c23-19abf6fac4e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[24]</value>
+      <webElementGuid>3cd0bafd-736a-463e-8725-1d9fe64cedf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE NOT CONFIRMED'])[1]/following::div[9]</value>
-      <webElementGuid>ad27f0ee-5083-4d82-9bc6-1662628c3819</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[26]</value>
+      <webElementGuid>d377aeae-e933-46e6-a378-c3a9103f5f4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total EXC'])[1]/preceding::div[30]</value>
-      <webElementGuid>7969a667-a478-431e-af55-d47ffae189f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[26]</value>
+      <webElementGuid>a07494e7-2260-44ad-af73-266e79a52d43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$54.72'])[1]/preceding::div[30]</value>
-      <webElementGuid>e7d8cca6-684a-4498-bf9c-c966d5407522</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[30]</value>
+      <webElementGuid>24da88ba-fc52-495e-85f4-744fb3b5132c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
-      <webElementGuid>9f99eaaa-6f22-40cd-a0e4-2b9aa54a3a26</webElementGuid>
+      <value>//*/text()[normalize-space(.)='16']/parent::*</value>
+      <webElementGuid>dd7786ad-1fbd-4b06-96c7-a95cf6d95f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>19f6273a-ed47-4c22-8d86-b757be5976da</webElementGuid>
+      <value>//tr[3]/td[6]/div</value>
+      <webElementGuid>9206d740-ea74-4dc7-998e-6f0b8c4eba17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1CU' and (text() = 'Actions' or . = 'Actions')]</value>
-      <webElementGuid>5fd20004-4c54-4bd3-a236-23cb237ec812</webElementGuid>
+      <value>//div[(text() = '16' or . = '16')]</value>
+      <webElementGuid>8f2acca4-443b-4e23-b81f-2bb36748d70c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

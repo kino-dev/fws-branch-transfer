@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_setDate</name>
+   <name>div_5006866</name>
    <tag></tag>
-   <elementGuidId>4947c987-a17f-47b0-83a4-5b802aa81d4f</elementGuidId>
+   <elementGuidId>8a3b1e28-72a7-4939-b0f3-d7ba8cd506be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr/td[6]/div[(text() = '16' or . = '16')]</value>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>td.dateChooserWeekdaySelectedOver > div</value>
+         <key>XPATH</key>
+         <value>//table[@id='isc_TTtable']/tbody/tr/td/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;9&quot;s</value>
+         <value>internal:text=&quot;5006866&quot;s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8369bd0b-be9b-45f3-aef1-40876eb81996</webElementGuid>
+      <webElementGuid>b36df6c6-2803-4cca-8c41-9ad2bce9de2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>2256f3b4-91c4-405a-8cc4-f94093e3e34c</webElementGuid>
+      <webElementGuid>d856d3ea-0f92-43cc-bb0c-8965d7c86694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,86 +45,70 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a65e85c9-bd92-498f-96c4-39fde868b966</webElementGuid>
+      <webElementGuid>f93b29d8-3e04-4771-9797-9a6b97f4c66c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>9</value>
-      <webElementGuid>0db938b8-ff9e-476a-821f-9e495844e49d</webElementGuid>
+      <value>5006866</value>
+      <webElementGuid>d1dcefd2-07cc-40d7-a45a-ffe9adadc81d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_UVtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;dateChooserWeekdaySelectedOver&quot;]/div[1]</value>
-      <webElementGuid>832758ee-811a-4161-8231-cb1aec83ea21</webElementGuid>
+      <value>id(&quot;isc_TTtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>65015cd5-4c14-4998-b363-8b633c702635</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_UVtable']/tbody/tr[2]/td[6]/div</value>
-      <webElementGuid>1b8d147f-59ad-4b58-b4a3-c8ef74a29160</webElementGuid>
+      <value>//table[@id='isc_TTtable']/tbody/tr/td/div</value>
+      <webElementGuid>98a8dcce-b165-41ac-9869-47f8a9bb08a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[17]</value>
-      <webElementGuid>2a7d4e1f-459b-4204-ae70-fd61e0b4d46a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[2]/following::div[9]</value>
+      <webElementGuid>add79962-e1ee-48a3-8f5f-4b4aeb5d1a51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[19]</value>
-      <webElementGuid>70dfc2f2-5440-4364-bb39-383775aa4e9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[1]/following::div[11]</value>
+      <webElementGuid>2f0c7b39-0e78-4dd6-b671-c943f6494ad8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[33]</value>
-      <webElementGuid>7745e244-97df-4f34-b303-c3f98919b743</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[37]</value>
-      <webElementGuid>24a9b02f-46e4-4790-9039-b43a15d51649</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='9']/parent::*</value>
-      <webElementGuid>0d10d70e-f25d-4e2e-91cb-faaf7d4a58a9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='5006866']/parent::*</value>
+      <webElementGuid>743ee51a-4157-47bc-910a-a5a8ac0d2721</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div</value>
-      <webElementGuid>f26aa42b-5415-4543-9670-7da88c0903d9</webElementGuid>
+      <value>//div[9]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>4810133c-9319-4852-a710-012d27345e41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '9' or . = '9')]</value>
-      <webElementGuid>edd0ab62-6843-48fb-b3e2-150c6eb4f74e</webElementGuid>
+      <value>//div[(text() = '5006866' or . = '5006866')]</value>
+      <webElementGuid>9a1f0cc1-b7d9-42b5-8085-1e8650c70209</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

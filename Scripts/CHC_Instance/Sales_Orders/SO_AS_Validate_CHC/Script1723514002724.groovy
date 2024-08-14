@@ -17,3 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'),
+	'6hUhntXdJknVTuE5fOO5WA==')
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login'))
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard'))
+
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Customer No_CustId'),
+	'518451')
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
+
+WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))

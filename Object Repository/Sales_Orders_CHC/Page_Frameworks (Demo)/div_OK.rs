@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Actions</name>
+   <name>div_OK</name>
    <tag></tag>
-   <elementGuidId>04f2c278-7f1c-4a3c-9834-e75fc0838fb3</elementGuidId>
+   <elementGuidId>346bf60d-d99d-41dc-856c-a20b36f5c98c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Actions' or . = 'Actions')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#isc_1CU</value>
+         <value>#isc_S1</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_136 >> internal:role=button[name=&quot;Actions&quot;i]</value>
+         <value>internal:label=&quot;OK&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>56c931f9-a624-466d-a211-aad2252b2da5</webElementGuid>
+      <webElementGuid>c62771fb-9def-4d6a-a88d-7af21e481566</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_1CU</value>
-      <webElementGuid>0705d38b-bd8f-476a-bac6-ce209f7229ad</webElementGuid>
+      <value>isc_S1</value>
+      <webElementGuid>6b20568f-89d8-4c53-b124-fd5c43b5bd2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,79 +45,79 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>38d53606-cc1c-43e2-95d2-654418898120</webElementGuid>
+      <webElementGuid>0a234762-788b-42f3-9dfc-820618847478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Actions</value>
-      <webElementGuid>a1cea65a-93bd-41eb-9fb8-d22490ff2ba8</webElementGuid>
+      <value>OK</value>
+      <webElementGuid>1b7b475e-b401-44ae-afb1-aa548459e875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1CU&quot;)</value>
-      <webElementGuid>4b94f3cf-5bf9-4c9f-9177-5543b9170a0c</webElementGuid>
+      <value>id(&quot;isc_S1&quot;)</value>
+      <webElementGuid>9092da13-9b8e-4c58-a4ee-381d33ba7c68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='isc_1CU']</value>
-      <webElementGuid>39dcc995-7c18-4d35-b8df-cb645b007244</webElementGuid>
+      <value>//div[@id='isc_S1']</value>
+      <webElementGuid>c9b0dda1-9339-44d9-a7fc-f6ee15d0be91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1CR']/table/tbody/tr/td/div</value>
-      <webElementGuid>d1786938-3616-47f8-be47-3dd3b95421ec</webElementGuid>
+      <value>//div[@id='isc_S2']/table/tbody/tr/td/div</value>
+      <webElementGuid>d9083685-0154-49cf-984f-26c811161f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WAITING ON PICKING'])[1]/following::div[8]</value>
-      <webElementGuid>d06e0d10-3a52-427f-8c23-19abf6fac4e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::div[8]</value>
+      <webElementGuid>52b1bab4-46b8-41e6-b5f0-bca481d7bef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE NOT CONFIRMED'])[1]/following::div[9]</value>
-      <webElementGuid>ad27f0ee-5083-4d82-9bc6-1662628c3819</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operator No'])[1]/following::div[8]</value>
+      <webElementGuid>2719cf6c-c547-4c44-90ca-94d79a2591cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total EXC'])[1]/preceding::div[30]</value>
-      <webElementGuid>7969a667-a478-431e-af55-d47ffae189f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>b179fd43-6065-4ee6-bfd4-df3f951d950f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$54.72'])[1]/preceding::div[30]</value>
-      <webElementGuid>e7d8cca6-684a-4498-bf9c-c966d5407522</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pin Entry'])[1]/preceding::div[3]</value>
+      <webElementGuid>7e5d3113-7d17-46e1-9858-8855525504a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
-      <webElementGuid>9f99eaaa-6f22-40cd-a0e4-2b9aa54a3a26</webElementGuid>
+      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+      <webElementGuid>d0da633a-0deb-4d84-95eb-2d169d540226</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,14 +125,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>19f6273a-ed47-4c22-8d86-b757be5976da</webElementGuid>
+      <webElementGuid>2a997320-10c7-422f-a6b3-278e7772db15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1CU' and (text() = 'Actions' or . = 'Actions')]</value>
-      <webElementGuid>5fd20004-4c54-4bd3-a236-23cb237ec812</webElementGuid>
+      <value>//div[@id = 'isc_S1' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>dd94a1d7-bd96-4cb1-b488-66ce8c51abb4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

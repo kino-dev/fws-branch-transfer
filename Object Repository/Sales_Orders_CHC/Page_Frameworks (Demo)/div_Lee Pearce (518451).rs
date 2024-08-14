@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_setDate</name>
+   <name>div_Lee Pearce (518451)</name>
    <tag></tag>
-   <elementGuidId>4947c987-a17f-47b0-83a4-5b802aa81d4f</elementGuidId>
+   <elementGuidId>cc74526c-873f-408a-93c7-684e71306e22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr/td[6]/div[(text() = '16' or . = '16')]</value>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>td.dateChooserWeekdaySelectedOver > div</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Lee Pearce (518451)']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;9&quot;s</value>
+         <value>internal:text=&quot;Lee Pearce (518451)&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8369bd0b-be9b-45f3-aef1-40876eb81996</webElementGuid>
+      <webElementGuid>0e5b6f5f-d5fc-4727-8773-8ecc0754c8d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>2256f3b4-91c4-405a-8cc4-f94093e3e34c</webElementGuid>
+      <webElementGuid>42606e46-b6d0-4879-8449-1bde159115a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,86 +45,70 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a65e85c9-bd92-498f-96c4-39fde868b966</webElementGuid>
+      <webElementGuid>f271df3e-625e-4967-aff0-3d560e56fa73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>9</value>
-      <webElementGuid>0db938b8-ff9e-476a-821f-9e495844e49d</webElementGuid>
+      <value>Lee Pearce (518451)</value>
+      <webElementGuid>7eca1691-5bb9-4af9-93b2-77c854bcf7e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_UVtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;dateChooserWeekdaySelectedOver&quot;]/div[1]</value>
-      <webElementGuid>832758ee-811a-4161-8231-cb1aec83ea21</webElementGuid>
+      <value>id(&quot;isc_TTtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>f441ec18-8e10-488a-805b-3eefa6435907</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_UVtable']/tbody/tr[2]/td[6]/div</value>
-      <webElementGuid>1b8d147f-59ad-4b58-b4a3-c8ef74a29160</webElementGuid>
+      <value>//table[@id='isc_TTtable']/tbody/tr/td/div</value>
+      <webElementGuid>c2aa6936-09cc-4042-85f2-c97b8395738f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[17]</value>
-      <webElementGuid>2a7d4e1f-459b-4204-ae70-fd61e0b4d46a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[2]/following::div[9]</value>
+      <webElementGuid>c18ca757-8a14-41d1-80b4-388b3a275262</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[19]</value>
-      <webElementGuid>70dfc2f2-5440-4364-bb39-383775aa4e9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Sales Order'])[1]/following::div[11]</value>
+      <webElementGuid>adde006d-d985-4ebc-9c8a-c80df03d2431</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[33]</value>
-      <webElementGuid>7745e244-97df-4f34-b303-c3f98919b743</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[37]</value>
-      <webElementGuid>24a9b02f-46e4-4790-9039-b43a15d51649</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='9']/parent::*</value>
-      <webElementGuid>0d10d70e-f25d-4e2e-91cb-faaf7d4a58a9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Lee Pearce (518451)']/parent::*</value>
+      <webElementGuid>90a89f75-8ffe-4900-a26f-e0029d8b22fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div</value>
-      <webElementGuid>f26aa42b-5415-4543-9670-7da88c0903d9</webElementGuid>
+      <value>//div[9]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>59184ce0-5f28-47f3-a003-a1b21f282c47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '9' or . = '9')]</value>
-      <webElementGuid>edd0ab62-6843-48fb-b3e2-150c6eb4f74e</webElementGuid>
+      <value>//div[(text() = 'Lee Pearce (518451)' or . = 'Lee Pearce (518451)')]</value>
+      <webElementGuid>2adabede-f316-4c03-9d1b-864603e7c723</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

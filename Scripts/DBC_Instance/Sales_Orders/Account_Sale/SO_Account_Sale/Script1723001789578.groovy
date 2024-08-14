@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_Calendar_icon'))
 
-WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_setDate'))
+WebUI.click(findTestObject('Sales_Orders/Page_Frameworks (Demo)/div_setDate'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Address'), '10 chila road')
 

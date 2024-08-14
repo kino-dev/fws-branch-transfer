@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Actions</name>
+   <name>div_Mark as Entry Complete</name>
    <tag></tag>
-   <elementGuidId>04f2c278-7f1c-4a3c-9834-e75fc0838fb3</elementGuidId>
+   <elementGuidId>42ab6f09-64e4-4547-bf5d-47c371c5ccdf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Actions' or . = 'Actions')]</value>
+         <value>//div[(text() = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;) or . = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;))]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_1CU</value>
+         <value>tr:nth-of-type(13) > td.menuTitleField > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm/Modify Delivery Date'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_136 >> internal:role=button[name=&quot;Actions&quot;i]</value>
+         <value>internal:text=&quot;Mark as 'Entry Complete'&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,110 +33,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>56c931f9-a624-466d-a211-aad2252b2da5</webElementGuid>
+      <webElementGuid>67966f90-d238-424f-8e48-435435be274a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>role</name>
       <type>Main</type>
-      <value>isc_1CU</value>
-      <webElementGuid>0705d38b-bd8f-476a-bac6-ce209f7229ad</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>d83c889e-0a8d-4cdd-bcd7-133805629dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>cellclipdiv</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>38d53606-cc1c-43e2-95d2-654418898120</webElementGuid>
+      <value>true</value>
+      <webElementGuid>d60b0ffb-3063-4ad9-bb78-1c07ec5164fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Actions</value>
-      <webElementGuid>a1cea65a-93bd-41eb-9fb8-d22490ff2ba8</webElementGuid>
+      <value>Mark as 'Entry Complete'</value>
+      <webElementGuid>bb7fa3a2-e087-4ef2-a753-d0c772f3b3dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1CU&quot;)</value>
-      <webElementGuid>4b94f3cf-5bf9-4c9f-9177-5543b9170a0c</webElementGuid>
+      <value>id(&quot;isc_1G9table&quot;)/tbody[1]/tr[13]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>35d3617c-134b-4038-9ba8-fb21660425b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1CU']</value>
-      <webElementGuid>39dcc995-7c18-4d35-b8df-cb645b007244</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1CR']/table/tbody/tr/td/div</value>
-      <webElementGuid>d1786938-3616-47f8-be47-3dd3b95421ec</webElementGuid>
+      <value>//table[@id='isc_1G9table']/tbody/tr[13]/td/div</value>
+      <webElementGuid>da82e92e-847a-4c62-867a-4b4b6f1c8071</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WAITING ON PICKING'])[1]/following::div[8]</value>
-      <webElementGuid>d06e0d10-3a52-427f-8c23-19abf6fac4e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm/Modify Delivery Date'])[1]/following::div[4]</value>
+      <webElementGuid>c3aac9c5-0bda-4e76-8835-d4af47aebdc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE NOT CONFIRMED'])[1]/following::div[9]</value>
-      <webElementGuid>ad27f0ee-5083-4d82-9bc6-1662628c3819</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Linked PO'])[1]/following::div[7]</value>
+      <webElementGuid>6b3f07a8-529b-4375-8a6e-2f85383588ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total EXC'])[1]/preceding::div[30]</value>
-      <webElementGuid>7969a667-a478-431e-af55-d47ffae189f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold Order'])[1]/preceding::div[3]</value>
+      <webElementGuid>4cd3918e-fb43-4b7d-8c71-bf09fac7b0cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$54.72'])[1]/preceding::div[30]</value>
-      <webElementGuid>e7d8cca6-684a-4498-bf9c-c966d5407522</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
-      <webElementGuid>9f99eaaa-6f22-40cd-a0e4-2b9aa54a3a26</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Void Order'])[1]/preceding::div[7]</value>
+      <webElementGuid>ef0e7384-5c36-42e2-a396-6422e1f33055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>19f6273a-ed47-4c22-8d86-b757be5976da</webElementGuid>
+      <value>//div[12]/div/div/div/div/table/tbody/tr[13]/td/div</value>
+      <webElementGuid>fb08b141-69db-4cf6-8ad6-35d410328ba5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1CU' and (text() = 'Actions' or . = 'Actions')]</value>
-      <webElementGuid>5fd20004-4c54-4bd3-a236-23cb237ec812</webElementGuid>
+      <value>//div[(text() = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;) or . = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;))]</value>
+      <webElementGuid>0b1371a8-5dd3-495c-9b2e-6d73aa75d7af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

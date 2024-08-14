@@ -76,7 +76,7 @@ WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale_CHC/Page_Framework
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col_Row2'))
 
-WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength_1'), '2')
+WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength_1'), '2')
 
 WebUI.delay(2)
 

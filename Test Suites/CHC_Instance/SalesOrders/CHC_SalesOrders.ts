@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CHC_SalesOrders</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6022e704-6006-438d-9d50-d6ac5d625d6a</testSuiteGuid>
+   <testCaseLink>
+      <guid>0e5b0ea7-23e0-4d79-b3a7-917a67e1de85</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CHC_Instance/Sales_Orders/SO_Account_Sale_CHC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d3a35345-b817-423a-bd79-aa382b670af7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4f4fc6a-5391-45db-a0e4-8588ad00fb0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CHC_Instance/Sales_Orders/SO_AS_Validate_CHC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>884fae0b-840d-440e-926d-47ff6d2711dc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

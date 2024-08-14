@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_setDate</name>
+   <name>label_Customer</name>
    <tag></tag>
-   <elementGuidId>4947c987-a17f-47b0-83a4-5b802aa81d4f</elementGuidId>
+   <elementGuidId>a13eb95b-2714-4b00-83e1-3cc22cf808cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr/td[6]/div[(text() = '16' or . = '16')]</value>
+         <key>CSS</key>
+         <value>#isc_IY</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>td.dateChooserWeekdaySelectedOver > div</value>
+         <key>XPATH</key>
+         <value>//label[@id='isc_IY']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;9&quot;s</value>
+         <value>internal:label=&quot;New Sales Order&quot;i >> internal:text=&quot;Customer&quot;s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,103 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>8369bd0b-be9b-45f3-aef1-40876eb81996</webElementGuid>
+      <value>label</value>
+      <webElementGuid>a0b56355-4cea-4a20-b008-bd2e87ae64d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_IY</value>
+      <webElementGuid>7d8ce65f-bf79-41e1-aad3-a7b4a2122c46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>for</name>
       <type>Main</type>
-      <value>presentation</value>
-      <webElementGuid>2256f3b4-91c4-405a-8cc4-f94093e3e34c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cellclipdiv</name>
-      <type>Main</type>
-      <value>true</value>
-      <webElementGuid>a65e85c9-bd92-498f-96c4-39fde868b966</webElementGuid>
+      <value>isc_IX</value>
+      <webElementGuid>bc5dd5f6-7b26-49a2-94ee-0538d0e86bff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>9</value>
-      <webElementGuid>0db938b8-ff9e-476a-821f-9e495844e49d</webElementGuid>
+      <value>Customer</value>
+      <webElementGuid>c02b1552-3e0c-4728-a698-041e1aaca873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_UVtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;dateChooserWeekdaySelectedOver&quot;]/div[1]</value>
-      <webElementGuid>832758ee-811a-4161-8231-cb1aec83ea21</webElementGuid>
+      <value>id(&quot;isc_IY&quot;)</value>
+      <webElementGuid>a00fc867-aebb-4de2-9906-f180a6884eac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='isc_IY']</value>
+      <webElementGuid>9784574a-e93c-44a9-918e-46ba395eaa28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_UVtable']/tbody/tr[2]/td[6]/div</value>
-      <webElementGuid>1b8d147f-59ad-4b58-b4a3-c8ef74a29160</webElementGuid>
+      <value>//td[@id='isc_IW']/nobr/label</value>
+      <webElementGuid>18bbfb5d-bc86-4532-9055-1942da9d1787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[17]</value>
-      <webElementGuid>2a7d4e1f-459b-4204-ae70-fd61e0b4d46a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Sale'])[1]/following::label[1]</value>
+      <webElementGuid>4a36e4a1-2517-405c-917f-95bb74dcc4e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[19]</value>
-      <webElementGuid>70dfc2f2-5440-4364-bb39-383775aa4e9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lee Pearce'])[1]/preceding::label[1]</value>
+      <webElementGuid>398e9a69-3d9b-4496-b919-dfeaa9be926b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[33]</value>
-      <webElementGuid>7745e244-97df-4f34-b303-c3f98919b743</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[37]</value>
-      <webElementGuid>24a9b02f-46e4-4790-9039-b43a15d51649</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='9']/parent::*</value>
-      <webElementGuid>0d10d70e-f25d-4e2e-91cb-faaf7d4a58a9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Number'])[1]/preceding::label[1]</value>
+      <webElementGuid>ae7facf5-3d3c-45fa-b1a7-215323f4de76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div</value>
-      <webElementGuid>f26aa42b-5415-4543-9670-7da88c0903d9</webElementGuid>
+      <value>//tr[3]/td/nobr/label</value>
+      <webElementGuid>f7a1d5e3-52ae-48dc-b7c0-4123e4b03b92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '9' or . = '9')]</value>
-      <webElementGuid>edd0ab62-6843-48fb-b3e2-150c6eb4f74e</webElementGuid>
+      <value>//label[@id = 'isc_IY' and (text() = 'Customer' or . = 'Customer')]</value>
+      <webElementGuid>1504e736-b6fa-444d-8399-3da477a5b3c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
